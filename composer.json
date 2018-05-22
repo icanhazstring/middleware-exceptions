@@ -1,0 +1,20 @@
+{
+    "name": "icanhazstring/middleware-exceptions",
+    "description": "Common middleware exceptions",
+    "type": "Library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "icanhazstring",
+            "email": "blubb0r05+github@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "icanhazstring\\Middleware\\Exception\\": "src"
+        }
+    }
+}
